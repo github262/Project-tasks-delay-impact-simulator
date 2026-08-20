@@ -1,0 +1,8 @@
+{
+  "name": "Project Delay Impact Simulator",
+  "description": "Interactive what-if simulator and Gantt timeline for analyzing task delays, buffer absorption, critical paths, and project launch date impacts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
