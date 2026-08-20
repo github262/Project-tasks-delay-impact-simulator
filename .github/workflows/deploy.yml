@@ -19,7 +19,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
 
       - name: Set up Node.js
@@ -32,7 +32,7 @@ jobs:
         run: npm ci
 
       - name: Build static web app
-        run: npm run build
+        run: npm run build:client
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
